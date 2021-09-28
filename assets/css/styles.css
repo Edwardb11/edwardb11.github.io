@@ -279,55 +279,27 @@ img {
   }
 }
 
-/*===== inicio section ===== */
-
-.inicio {
-  /* Sizing */
-  width: 100vw;
-  height: 100vh;
-
-  /* Flexbox stuff */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* Text styles */
-  text-align: center;
-  color: #2f4f4f;
-
-  /* Background styles */
-  background-color: #f3e6e8;
-  background-image: linear-gradient(315deg, #f3e6e8 0%, #d5e5d0 74%);
+/*===== HOME =====*/
+.home {
+  background-image: url("/assets/img/2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-color: #66999; */
 }
 
-.inicio h1 {
-  /* Text styles */
-  font-size: 5em;
-
-  /* Margins */
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-.inicio .btn {
-  /* Positioning and sizing */
+.round-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 100px;
+  background-image: url("/assets/img/perfil.png");
+  background-size: cover;
   display: block;
-  width: 200px;
-
-  /* Padding and margins */
-  padding: 1em;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-
-  /* Text styles */
-  color: white;
-  text-decoration: none;
-  font-size: 1.5em;
-
-  /* Border styles */
-  border: 3px solid white;
-  border-radius: 20px;
-
-  /* Background styles */
-  background-color: var(--first-color);
+  border-top-left-radius: 125px;
+  -webkit-border-top-left-radius: 125px;
+  -moz-border-top-left-radius: 125px;
+  border-bottom-right-radius: 125px;
+  -webkit-border-bottom-right-radius: 125px;
+  -moz-border-bottom-right-radius: 125px;
 }
