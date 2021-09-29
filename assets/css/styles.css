@@ -329,6 +329,7 @@ h4 {
   color: #4b4949;
 }
 
+/* ===TRABAJOS=== */
 #trabajos {
   width: 100%;
   box-sizing: border-box;
@@ -341,67 +342,47 @@ h4 {
   background-color: #fffef7;
 }
 
-.p-headind {
-  font-family: calibri;
-  font-size: 1.7rem;
-  text-align: center;
-  color: #ffffff;
-  font-weight: 400;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  background-color: #292929;
-  letter-spacing: 2px;
-  border-radius: 3px;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+
+
+.row {
+  margin: 8px -6px;
 }
-.p-box {
-  background-color: #1f1f1f;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
-  position: relative;
+
+/*Agregue relleno ENTRE cada columna  */
+.row,
+.row > .column {
+  padding: 8px;
 }
-.p-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+/* crear cuatro columnas iguales que flotan una al lado de la otra*/
+.column {
+  float: left;
+  width: 25%;
 }
-.p-container {
-  width: 90%;
-  height: 70vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
-  grid-gap: 10px;
+
+/* Limpiar flotadores después de filas */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.overlay-text {
-  font-family: calibri;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgba(97, 208, 251, 0.8);
-  display: none;
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
 }
-.overlay-text h1,
-p {
-  color: #ffffff;
+
+/* Diseño receptivo: hace un diseño de dos columnas en lugar de cuatro columnas */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
 }
-.overlay-text h1 {
-  font-size: 2.2rem;
-  margin: 0px;
-  padding: 0px;
-  letter-spacing: 2px;
-}
-.overlay-text p {
-  font-size: 1.2rem;
-  margin: 0px;
-}
-.p-box:hover .overlay-text {
-  display: flex;
+
+/* Diseño receptivo: hace que las dos columnas se apilen una encima de la otra en lugar de una al lado de la otra. */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
