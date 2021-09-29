@@ -1,6 +1,16 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -280,26 +290,42 @@ img {
 }
 
 /*===== HOME =====*/
-.home {
-  background-image: url("/assets/img/2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  /* background-color: #66999; */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #fffef7; */
+  background-color: #f6f0c4;
+  background-image: linear-gradient(315deg, #f6f0c4 0%, #c7c7c7 74%);
+}
+
+.welcome-section > p {
+  display: flex;
+  font-size: 1rem;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-color);
+  text-indent: 30px;
+  text-align: center;
 }
 
 .round-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 100px;
-  background-image: url("/assets/img/perfil.png");
-  background-size: cover;
-  display: block;
-  border-top-left-radius: 125px;
-  -webkit-border-top-left-radius: 125px;
-  -moz-border-top-left-radius: 125px;
-  border-bottom-right-radius: 125px;
-  -webkit-border-bottom-right-radius: 125px;
-  -moz-border-bottom-right-radius: 125px;
+  float: left;
+  display: flex;
+  width: 12em;
+  height: 12em;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 100%;
+  border: outset darkred;
+}
+
+h4 {
+  font-weight: 100;
+  color: #4b4949;
 }
