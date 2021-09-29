@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -13,7 +12,7 @@
 
 <body>
     <header class="header">
-        <a href="#" class="header__logo">Edward Brito</a>
+        <a href="#" class="header__logo">Portafolio</a>
 
         <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 
@@ -34,10 +33,10 @@
                 <div class="nav__menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#" class="nav__link active">Inicio</a>
+                            <a href="#welcome-section" class="nav__link active">Inicio</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Trabajos</a>
+                            <a href="#trabajos" class="nav__link">Trabajos</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">Habilidades</a>
@@ -48,23 +47,85 @@
                     </ul>
                 </div>
                 <div class="nav__social">
-                    <a href="#" class="nav__social-icon">
+                    <a href="https://www.linkedin.com/in/edward-brito-diaz-b60909179/" target="_blank"
+                        class="nav__social-icon">
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
-                    <a href="#" class="nav__social-icon">
+                    <a href="https://github.com/Edwardb11" target="_blank" class="nav__social-icon">
                         <ion-icon name="logo-github"></ion-icon>
                     </a>
-                    <a href="#" class="nav__social-icon">
+                    <a href="https://twitter.com/brito_edward11" target="_blank" class="nav__social-icon">
                         <ion-icon name="logo-twitter"></ion-icon>
                     </a>
-                    <a href="#" class="nav__social-icon">
+                    <a href="https://www.facebook.com/EdwardBritoDiaz/" target="_blank" class="nav__social-icon">
                         <ion-icon name="logo-facebook"></ion-icon>
                     </a>
                 </div>
             </div>
         </nav>
     </header>
-
+    <!--===== HOME =====-->
+    <section id="welcome-section" class="welcome-section">
+        <img class="round-image" src="/assets/img/perfil.png">
+        <h2>Edward Brito Diaz</h2>
+        <h4 class="sencilla">Desarrollador de software aprendiz</h4>
+        <p>Mi nombre es Edward Brito Diaz actualmente soy estudiante de Ingeniería de Sistemas Computacionales en
+            UCATECI y estudiante de programación
+            en Cincinnatus Institute of Craftsmanship, S.R.L.</p>
+            <div class="nav__social">
+                <a href="https://www.linkedin.com/in/edward-brito-diaz-b60909179/" target="_blank"
+                    class="nav__social-icon_home">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://github.com/Edwardb11" target="_blank" class="nav__social-icon_home">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://twitter.com/brito_edward11" target="_blank" class="nav__social-icon_home">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="https://www.facebook.com/EdwardBritoDiaz/" target="_blank" class="nav__social-icon_home">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </div>
+    </section>
+    <section id="trabajos">
+        <h2>PORTFOLIO</h2>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="/assets/img/odontologica.png" alt="odontologica" style="width:100%">
+                    <h3>Sistema de cita odontologica</h3>
+                    <p> Sistema de cita donde el administrador( Doctor) puede ver las cita ya registrada por el
+                        cliente(Paciente) con todos los datos del mismo.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="/assets/img/todolist.png" alt="Lights" style="width:100%" >
+                    <h3>To do list</h3>
+                    <p>To do list es una lista de pendientes, es decir, una enumeración de tareas a
+                        cumplir en cierto periodo de tiempo, con prioridades y cronogramas tentativos. Este proyecto
+                        esta
+                        enfocado en un profesor asignar tareas a determinados o un grupo en general de estudiantes</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="/assets/img/game1.png" alt="Proceso"  style="width: 100%" >
+                    <h3>Juego de damas</h3>
+                    <p>El juego consiste en mover las piezas en diagonal por los cuadrados negros de un tablero de
+                        ajedrez con la intención de capturar (comer) las piezas del oponente saltando sobre ellas.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="/assets/img/c.png" alt="Mountains" style="width:100%">
+                    <h3>Cuenta</h3>
+                    <p>Control sobre los empleados a los que se han creado cuentas bancarias para realizarle deposito...</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- ===== IONICONS ===== -->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
