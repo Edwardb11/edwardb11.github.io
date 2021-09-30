@@ -5,7 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="./assets/img/perfil.png" type="image/x-icon" />
 
     <title>Portafolio</title>
 </head>
@@ -22,12 +25,12 @@
 
                 <div class="nav__perfil">
                     <div class="nav__img">
-                        <img src="assets/img/perfil.png" alt="" />
+                        <img src="assets/img/perfil.png" alt="Edward Brito" />
                     </div>
 
                     <div>
-                        <a href="#" class="nav__name">Edward Brito</a>
-                        <span class="nav__profesion">Desarrollador de software aprendiz</span>
+                        <a href="#welcome-section" class="nav__name">Edward Brito</a>
+                        <span class="nav__profesion">Desarrollador de software Junior</span>
                     </div>
                 </div>
                 <div class="nav__menu">
@@ -39,7 +42,10 @@
                             <a href="#trabajos" class="nav__link">Trabajos</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Habilidades</a>
+                            <a href="#educacion" class="nav__link">Educación</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Habilidades" class="nav__link">Habilidades</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">Contactos</a>
@@ -64,33 +70,37 @@
             </div>
         </nav>
     </header>
-    <!--===== HOME =====-->
+    <!--===== INICIO =====-->
     <section id="welcome-section" class="welcome-section">
         <img class="round-image" src="/assets/img/perfil.png">
         <h2>Edward Brito Diaz</h2>
-        <h4 class="sencilla">Desarrollador de software aprendiz</h4>
+        <h4 class="sencilla">Desarrollador de software Junior</h4>
         <p>Mi nombre es Edward Brito Diaz actualmente soy estudiante de Ingeniería de Sistemas Computacionales en
             UCATECI y estudiante de programación
             en Cincinnatus Institute of Craftsmanship, S.R.L.</p>
-            <div class="nav__social">
-                <a href="https://www.linkedin.com/in/edward-brito-diaz-b60909179/" target="_blank"
-                    class="nav__social-icon_home">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-                <a href="https://github.com/Edwardb11" target="_blank" class="nav__social-icon_home">
-                    <ion-icon name="logo-github"></ion-icon>
-                </a>
-                <a href="https://twitter.com/brito_edward11" target="_blank" class="nav__social-icon_home">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-                <a href="https://www.facebook.com/EdwardBritoDiaz/" target="_blank" class="nav__social-icon_home">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-            </div>
+        <span>Me desempeño como software developer apprentice en <a href="https://intellisysdcorp.com/"
+                target="_back">Intellisys D. Corp.</a> </span>
+
+        <div class="nav__social">
+            <a href="https://www.linkedin.com/in/edward-brito-diaz-b60909179/" target="_blank"
+                class="nav__social-icon_home">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://github.com/Edwardb11" target="_blank" class="nav__social-icon_home">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://twitter.com/brito_edward11" target="_blank" class="nav__social-icon_home">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/EdwardBritoDiaz/" target="_blank" class="nav__social-icon_home">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+        </div>
     </section>
+    <!-- TRABAJOS -->
     <section id="trabajos">
-        <h2>PORTAFOLIO</h2>
-        <div class="row">
+        <h1 class="heading1">Mi Portafolio</h1>
+                <div class="row">
             <div class="column">
                 <div class="content">
                     <img src="/assets/img/odontologica.png" alt="odontologica" style="width:100%">
@@ -101,7 +111,7 @@
             </div>
             <div class="column">
                 <div class="content">
-                    <img src="/assets/img/todolist.png" alt="Lights" style="width:100%" >
+                    <img src="/assets/img/todolist.png" alt="Lights" style="width:100%">
                     <h3>To do list</h3>
                     <p>To do list es una lista de pendientes, es decir, una enumeración de tareas a
                         cumplir en cierto periodo de tiempo, con prioridades y cronogramas tentativos. Este proyecto
@@ -111,7 +121,7 @@
             </div>
             <div class="column">
                 <div class="content">
-                    <img src="/assets/img/game1.png" alt="Proceso"  style="width: 100%" >
+                    <img src="/assets/img/game1.png" alt="Proceso" style="width: 100%">
                     <h3>Juego de damas</h3>
                     <p>El juego consiste en mover las piezas en diagonal por los cuadrados negros de un tablero de
                         ajedrez con la intención de capturar (comer) las piezas del oponente saltando sobre ellas.</p>
@@ -121,8 +131,137 @@
                 <div class="content">
                     <img src="/assets/img/c.png" alt="Mountains" style="width:100%">
                     <h3>Cuenta</h3>
-                    <p>Control sobre los empleados a los que se han creado cuentas bancarias para realizarle deposito...</p>
+                    <p>Control sobre los empleados a los que se han creado cuentas bancarias para realizarle deposito...
+                    </p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- HABILIDADES -->
+    <section  id="Habilidades">
+        <div class="wrapper">
+            <div class="container">
+                <h1 class="heading1">Mis Habilidades</h1>
+                <div class="skills">
+                    <div class="details">
+                        <span><ion-icon name="logo-html5"></ion-icon> HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span> <ion-icon name="logo-css3"></ion-icon> CSS</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="css-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span> <ion-icon name="logo-javascript"></ion-icon> JavaScript</span>
+                        <span>72%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="js-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>jQuery</span>
+                        <span>28%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="jQuery-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span><i class="fa fas-php"></i> Php </span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="php-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span><ion-icon name="logo-python"></ion-icon> Python</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="python-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>C</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="c-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span> <ion-icon name="git-branch"></ion-icon> <ion-icon name="logo-github"></ion-icon> Git/GitHub</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="git-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>Sql/Mysql</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="Sql-bar"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </section>
+      <!-- EDUCACION -->
+      <section class="education" id="educacion">
+        <h1 class="heading">Mi <span>Educación</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+
+                <span>2019</span>
+
+                <h3>Escuela secundaria</h3>
+                <p>Técnico en Informática<br>
+                    <BR>
+                    Liceo Manuel Acevedo Serrano
+                    CEMAS
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>Programación</h3>
+                <br>
+                <p>
+                    Cincinnatus Institute of Craftsmanship, S.R.L.<br>
+                    CIC
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2024</span>
+                <h3>Educación superior</h3><br>
+                <p>
+                    Ingeniería en Sistemas de Computación
+                    <br>
+                    UCATECI
+                </p>
             </div>
         </div>
     </section>

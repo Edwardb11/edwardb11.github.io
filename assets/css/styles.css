@@ -303,7 +303,7 @@ img {
 
 .welcome-section > p {
   display: flex;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-style: italic;
   align-items: center;
   justify-content: center;
@@ -351,6 +351,15 @@ h4 {
   background-color: #fffef7;
 }
 
+.heading1 {
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 3rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.267);
+  color: var(--dark-color);
+  box-shadow: 12px 12px 2px 1px rgba(4, 133, 255, 0.2);
+}
 
 
 .row {
@@ -394,4 +403,199 @@ h4 {
   .column {
     width: 100%;
   }
+}
+
+/* ==Skils== */
+
+.wrapper{
+  width: 40%;
+  min-width: 340px;
+  position: relative;
+  transform: translate(-50%);
+  left: 50%;
+  top: 50%;
+}
+.container{
+  width: 100%;
+  padding: 30px 30px 50px;
+  background-color: white;
+  border: 2px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+} 
+.container *{
+  font-family: "Poppins",sans-serif;
+  color: black;
+  font-weight: 500;
+}
+h2{
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+.details{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar{
+  position: relative;
+
+  border: 2px solid #0d96e0;
+
+  border-radius: 20px;
+
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #0d96e0;
+ 
+
+}
+#html-bar{
+animation: html-fill 7s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 90%;
+  }
+}
+
+#css-bar{
+  animation: css-fill 8s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 65%;
+  }
+}
+#js-bar{
+  animation: js-fill 9s forwards;
+}
+@keyframes js-fill {
+  100%{
+      width: 72%;
+  }
+}
+#jQuery-bar{
+  animation: jQuery-fill 10s forwards;
+}
+@keyframes jQuery-fill{
+  100%{
+      width: 28%;
+  }
+} 
+#php-bar{
+  animation: php-fill 11s forwards;
+}
+@keyframes php-fill{
+  100%{
+      width: 80%;
+  }
+} 
+#python-bar{
+  animation: python-fill 12s forwards;
+}
+@keyframes python-fill{
+  100%{
+      width: 80%;
+  }
+} 
+#c-bar{
+  animation: c-fill 13s forwards;
+}
+@keyframes c-fill{
+  100%{
+      width: 50%;
+  }
+} 
+#git-bar{
+  animation: git-fill 14s forwards;
+}
+@keyframes git-fill{
+  100%{
+      width: 90%;
+  }
+} 
+#Sql-bar{
+  animation: sql-fill 15s forwards;
+}
+@keyframes sql-fill{
+  100%{
+      width: 60%;
+  }
+} 
+
+/* ==Educacion== */
+.heading {
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid #fff4;
+  color: rgb(255, 255, 255);
+}
+.heading span {
+  color:yellow;
+}
+
+.education{
+  background-color:var(--dark-color) ;
+}
+.education .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
+}
+.education .box-container .box {
+  width: 27rem;
+  margin: 4rem 1rem;
+  padding-left: 4rem;
+  border-left: 0.2rem solid #fff;
+  position: relative;
+}
+.education .box-container .box span {
+  font-size: 1.3rem;
+  background: #222;
+  color: #fff;
+  border-radius: 5rem;
+  padding: 0.5rem 2.5rem;
+
+}
+.education .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 1.5rem;
+
+}
+.education .box-container .box p {
+  font-size: 1.4rem;
+  color: #eee;
+  padding: 1rem 0;
+}
+.education .box-container .box i {
+  position: absolute;
+  top: -1.5em;
+  left: -2.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(2, 2, 2);
+  background: yellow;
 }
