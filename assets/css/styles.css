@@ -303,12 +303,9 @@ img {
 
 .welcome-section > p {
   display: flex;
-  font-size: 1.1rem;
+  font-size:1em;
   font-style: italic;
-  align-items: center;
-  justify-content: center;
   color: var(--dark-color);
-  text-indent: 30px;
   text-align: center;
 }
 
@@ -323,9 +320,10 @@ img {
   border: outset darkred;
 }
 
-h4 {
-  font-weight: 100;
-  color: #4b4949;
+h4  {
+  font-weight: 100%;
+  color: #585858;
+  font-size: 0.9em;
 }
 
 .nav__social-icon_home {
@@ -337,6 +335,7 @@ h4 {
 .nav__social-icon_home:hover {
   color: var(--dark-color);
 }
+
 
 /* ===TRABAJOS=== */
 #trabajos {
@@ -358,7 +357,6 @@ h4 {
   padding: 1rem;
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.267);
   color: var(--dark-color);
-  box-shadow: 12px 12px 2px 1px rgba(4, 133, 255, 0.2);
 }
 
 
@@ -406,13 +404,25 @@ h4 {
 }
 
 /* ==Skils== */
+#Habilidades {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: calibri;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 2% 20px 2%;
+  background-color: #fffef7;
 
+}
 .wrapper{
   width: 40%;
   min-width: 340px;
   position: relative;
-  transform: translate(-50%);
+  transform: translate(-100%,-10%);
   left: 50%;
+  margin-bottom: 10px;
   top: 50%;
 }
 .container{
