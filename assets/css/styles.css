@@ -301,14 +301,18 @@ img {
   background-image: linear-gradient( #ffffff 0%, #f6f0c4, #ffffff );
 }
 
-.welcome-section > p {
+.welcome-section  p {
   display: flex;
   font-size:1em;
   font-style: italic;
   color: var(--dark-color);
   text-align: center;
+  flex-direction: column;
 }
 
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
 .round-image {
   float: left;
   display: flex;
@@ -405,6 +409,7 @@ h4  {
 
 /* ==Skils== */
 #Habilidades {
+  position: relative;
   width: 100%;
   box-sizing: border-box;
   font-family: calibri;
@@ -548,11 +553,13 @@ animation: html-fill 7s forwards;
 /* ==Educacion== */
 .heading {
   text-align: center;
-  margin: 0 6rem;
-  font-size: 4rem;
-  padding: 1rem;
+  font-size: 3rem;
   border-bottom: 0.1rem solid #fff4;
   color: rgb(255, 255, 255);
+  padding: 0.5rem 2.5rem;
+  margin: 4rem 1rem;
+  position: relative;
+
 }
 .heading span {
   color:yellow;
@@ -560,6 +567,12 @@ animation: html-fill 7s forwards;
 
 .education{
   background-color:var(--dark-color) ;
+  width: 100%;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+
+
 }
 .education .box-container {
   display: flex;
