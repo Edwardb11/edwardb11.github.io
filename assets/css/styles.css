@@ -421,7 +421,7 @@ h4  {
 }
 .wrapper{
   width: 40%;
-  min-width: 340px;
+  min-width: 250px;
   position: relative;
   left: 50%;
   margin-right: 150%;
@@ -569,10 +569,6 @@ animation: html-fill 7s forwards;
   background-color:var(--dark-color) ;
   width: 100%;
   position: relative;
-  margin: 0px;
-  padding: 0px;
-
-
 }
 .education .box-container {
   display: flex;
@@ -601,7 +597,6 @@ animation: html-fill 7s forwards;
   font-size: 2rem;
   color: #fff;
   padding-top: 1.5rem;
-
 }
 .education .box-container .box p {
   font-size: 1.4rem;
