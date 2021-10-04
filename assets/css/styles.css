@@ -340,6 +340,29 @@ h4  {
   color: var(--dark-color);
 }
 
+.line-1{
+  position: relative;
+  /* top: 50%;   */
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-20%);    
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
 
 /* ===TRABAJOS=== */
 #trabajos {
@@ -559,7 +582,7 @@ animation: html-fill 7s forwards;
   padding: 0.5rem 2.5rem;
   margin: 4rem 1rem;
   position: relative;
-
+  animation: 3s infinite alternate slidein;
 }
 .heading span {
   color:yellow;
@@ -615,4 +638,92 @@ animation: html-fill 7s forwards;
   font-size: 2rem;
   color: rgb(2, 2, 2);
   background: yellow;
+}
+
+
+/* ==Footer== */
+
+.container1{
+  width: 100%;
+  padding: 30px 30px 100px 100px;
+	margin:auto;
+  background-color:var(--dark-color);
+}  
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: var(--dark-color);
+  margin-top: -70px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: var(--white-color);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li:hover{
+	color:var(--first-color);
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease-out ;
+}
+.footer-col .social-links a:hover{
+	background-color: var(--first-color);
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
 }
