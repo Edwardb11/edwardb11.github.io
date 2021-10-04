@@ -645,7 +645,7 @@ animation: html-fill 7s forwards;
 
 .container1{
   width: auto;
-  padding: 30px 30px 100px 100px;
+  padding: 30px 30px 40px 40px;
 	margin:auto;
   background-color:var(--dark-color);
 }  
