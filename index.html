@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- ===== CSS ===== -->
+ <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="icon" href="./assets/img/perfil.png" type="image/x-icon" />
 
@@ -51,7 +50,7 @@
                             <a href="#educacion" class="nav__link">Educación</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Contactos</a>
+                            <a href="#contactos" class="nav__link">Contactos</a>
                         </li>
                     </ul>
                 </div>
@@ -76,7 +75,7 @@
     <!--===== INICIO =====-->
     <section id="welcome-section" class="welcome-section">
         <img class="round-image" src="/assets/img/perfil.png">
-        <h1>&#128081 • Edward Brito Diaz • &#128081</h1>
+        <h1 class="line-1 anim-typewriter">&#128081 • Edward Brito Diaz • &#128081</h1>
         <h4 class="sencilla">Junior software developer&#128187</h4>
         <p>Mi nombre es Edward Brito Diaz actualmente soy estudiante de Ingeniería de Sistemas Computacionales en
             UCATECI y estudiante de programación en Cincinnatus Institute of Craftsmanship, S.R.L. <br> Me desempeño
@@ -241,18 +240,16 @@
     </section>
     <!-- EDUCACION -->
     <section class="education" id="educacion">
-        <h1 class="heading">Mi <span>Educación</span></h1>
+        <h1 class="heading1">Mi Educación</h1>
         <div class="box-container">
             <div class="box">
                 <i class="fas fa-graduation-cap"></i>
-
-                <span>2019</span>
-
-                <h3>Escuela secundaria</h3>
-                <p>Técnico en Informática<br>
-                    <BR>
-                    Liceo Manuel Acevedo Serrano
-                    CEMAS
+                <span>2024</span>
+                <h3>Educación superior</h3><br>
+                <p>
+                    Ingeniería en Sistemas de Computación
+                    <br>
+                    UCATECI
                 </p>
             </div>
             <div class="box">
@@ -267,18 +264,79 @@
             </div>
             <div class="box">
                 <i class="fas fa-graduation-cap"></i>
-                <span>2024</span>
-                <h3>Educación superior</h3><br>
-                <p>
-                    Ingeniería en Sistemas de Computación
-                    <br>
-                    UCATECI
+
+                <span>2019</span>
+
+                <h3>Escuela secundaria</h3>
+                <p>Técnico en Informática<br>
+                    <BR>
+                    Liceo Manuel Acevedo Serrano<br>
+                    CEMAS
                 </p>
             </div>
         </div>
     </section>
+    <!-- CONTACTOS -->
+    <section id="contactos">
+        <footer class="footer" >
+            <h1 class="heading"> Contactos</h1>
+            <div class="container1">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Lenguajes</h4>
+                        <ul>
+                            <li>Php</a></li>
+                            <li>JavaScript</li>
+                            <li>Python</a></li>
+                            <li>C</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Diseño grafico</h4>
+                        <ul>
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Canvas</li>
+                            <li>indesign</li>
+                            <li>Filmora</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li>Logos</li>
+                            <li>Logotipo</li>
+                            <li>Simple Web Application</li>
+                            <li>Edición de videos</li>
+                            <li>Creación de contenido</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Redes sociales</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/edward-brito-diaz-b60909179/" target="_blank"
+                            class="nav__social-icon">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="https://github.com/Edwardb11" target="_blank" class="nav__social-icon">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/brito_edward11" target="_blank" class="nav__social-icon">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="https://www.facebook.com/EdwardBritoDiaz/" target="_blank" class="nav__social-icon">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+    </section>
+
     <!-- ===== IONICONS ===== -->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/all.js"></script> <!--load all styles -->
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
