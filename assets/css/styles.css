@@ -18,8 +18,9 @@ html {
   --first-color: #3664f4;
   --dark-color: #070d1f;
   --dark-color-alt: #282b3a;
-  --white-color: #e6e7e9;
-
+  --white-color: #ffffff;
+  --white-color1: #bebff5;
+  
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --normal-font-size: 0.938rem;
@@ -332,7 +333,7 @@ h4  {
 
 .nav__social-icon_home {
   font-size: 3.2rem;
-  color: var(--white-color);
+  color: var(--white-color1);
   margin-right: 1rem;
 }
 
@@ -344,12 +345,20 @@ h4  {
   position: relative;
   /* top: 50%;   */
   /* border-right: 2px solid rgba(255,255,255,.75); */
+  font-size: 1.5rem;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-10%);    
 }
 
+.div__center{
+  max-width: 50%;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+
+}
 /* Animation */
 .anim-typewriter{
 animation: typewriter 4s steps(44) 1s 1 normal both,
@@ -537,6 +546,22 @@ animation: html-fill 7s forwards;
 @keyframes php-fill{
   100%{
       width: 80%;
+  }
+} 
+#React-bar{
+  animation: React-fill 11s forwards;
+}
+@keyframes React-fill{
+  100%{
+      width: 70%;
+  }
+} 
+#Strapi-bar{
+  animation: Strapi-fill 11s forwards;
+}
+@keyframes Strapi-fill{
+  100%{
+      width: 100%;
   }
 } 
 #python-bar{
