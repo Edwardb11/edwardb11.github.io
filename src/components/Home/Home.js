@@ -11,7 +11,6 @@ import {
   Socials,
   Quote,
 } from "../styles/Home.styled";
-import "./style.css";
 import projectIcon from "../../assets/icons/project-icon.svg";
 import aboutIcon from "../../assets/icons/about-me.svg";
 import { IconContext } from "react-icons";
@@ -26,21 +25,8 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-        <Name>Jericho Bantiquete</Name>
-        <Title>Front-end Developer</Title>
-        <p>
-          I <span className="change-text"></span>{" "}
-          <span className="responsive">r</span>
-          <span className="responsive">e</span>
-          <span className="responsive">s</span>
-          <span className="responsive">p</span>
-          <span className="responsive">o</span>
-          <span className="responsive">n</span>
-          <span className="responsive">s</span>
-          <span className="responsive">i</span>
-          <span className="responsive">v</span>
-          <span className="responsive">e</span> websites.
-        </p>
+        <Name>Edward Brito</Name>
+        <Title>Full-Stack Developer</Title>
         <StyledButtonsContainer>
           <StyledButton
             icon={projectIcon}
