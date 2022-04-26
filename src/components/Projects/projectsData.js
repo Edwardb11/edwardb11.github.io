@@ -1,0 +1,83 @@
+import {
+  advice,
+  game,
+  meanStack,
+  todolits,
+  odontologica,
+  task,
+  blog,
+  appPresupuesto,
+  ticCaculator
+} from "./projectImages";
+
+export const projectData = [
+  {
+    id: 1,
+    image: advice,
+    transitionImage: advice,
+    title: "phrase generator",
+    codeLink: "https://github.com/Edwardb11/advice-generator-app",
+    liveLink: "https://advice-generator-app-ju49kz11a-edwardb11.vercel.app/",
+  },
+  {
+    id: 2,
+    image: game,
+    transitionImage: game,
+    title: "Checker game",
+    codeLink: "https://github.com/Edwardb11/Checkers",
+  },
+  {
+    id: 3,
+    image: meanStack,
+    transitionImage: meanStack,
+    title: "Mean STACK ",
+    codeLink: "https://github.com/Edwardb11/mean-stack-frontend",
+    liveLink: "https://mean-stack-frontend-3r720kjax-edwardb11.vercel.app/auth",
+  },
+  {
+    id: 4,
+    image: todolits,
+    transitionImage: todolits,
+    title: "Task list ",
+    codeLink: "https://github.com/Edwardb11/php/tree/to-do-list",
+  },
+  {
+    id: 5,
+    image: odontologica,
+    transitionImage: odontologica,
+    title: "Dental appointments",
+    codeLink: "https://github.com/Edwardb11/sistema_de_cita_odontologica",
+  },
+  {
+    id: 6,
+    image: task,
+    transitionImage: task,
+    title: "Simple task list ",
+    codeLink: "https://github.com/Edwardb11/learning-angular",
+    liveLink:"https://tasks-e9r5lzolb-edwardb11.vercel.app/",
+  },
+  {
+    id: 7,
+    image: blog,
+    transitionImage: blog,
+    title: "Blog",
+    codeLink: "https://github.com/Edwardb11/blog-project-front",
+    liveLink:"https://build-a-blog-project-bkjrvivau-edwardb11.vercel.app/",
+  },
+  {
+    id: 8,
+    image: appPresupuesto,
+    transitionImage: appPresupuesto,
+    title: "Budget",
+    codeLink: "https://github.com/Edwardb11/app-presupuesto-js",
+    liveLink:"https://edwardb11.github.io/app-presupuesto-js/",
+  },
+  {
+    id: 9,
+    image: ticCaculator,
+    transitionImage: ticCaculator,
+    title: "Tic Calculator ",
+    codeLink: "https://github.com/Edwardb11/Tip-calculator-app",
+    liveLink:"https://tip-calculator-app1-b6c66mx91-edwardb11.vercel.app/",
+  },
+];
