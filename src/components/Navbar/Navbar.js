@@ -3,13 +3,11 @@ import {
   Line,
   Menu,
   NavList,
-  NavLogo,
   NavMenuList,
   StyledCTA,
   StyledNavbar,
   StyledNavLinks,
 } from "../styles/Navbar.styled";
-import logo from "../../assets/logo.svg";
 import { animateScroll as scroll } from "react-scroll";
 import MobileMenu from "./MobileMenu";
 
@@ -38,9 +36,6 @@ const Navbar = () => {
 
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
-      <div>
-        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" />
-      </div>
       <NavMenuList>
         <NavList>
           <StyledNavLinks
@@ -84,39 +79,18 @@ const Navbar = () => {
             About
           </StyledNavLinks>
         </NavList>
-        <NavList>
-          <StyledNavLinks
-            to="playground"
-            smooth={true}
-            duration={0}
-            delay={0}
-            spy={true}
-            spyThrottle={0}
-            exact="true"
-            offset={-85.26}
-          >
-            Playground
-          </StyledNavLinks>
-        </NavList>
       </NavMenuList>
       <StyledCTA
-        href="mailto:jerichobantiquete@gmail.com "
+        href="https://github.com/Edwardb11"
         target="_blank"
         rel="noreferrer"
       >
         <span>
           <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="#fff"
-            >
-              <path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" />
-            </svg>
-            get in touch
-          </span>
+          <svg id="github" xmlns="http://www.w3.org/2000/svg" width="44.231" height="22.14" viewBox="0 0 44.231 43.14">
+  <path id="Path_10" data-name="Path 10" d="M22.116,0a22.118,22.118,0,0,0-6.992,43.1c1.105.2,1.511-.48,1.511-1.064,0-.527-.021-2.27-.03-4.118-6.153,1.338-7.451-2.609-7.451-2.609A5.855,5.855,0,0,0,6.7,32.075C4.692,30.7,6.85,30.73,6.85,30.73a4.649,4.649,0,0,1,3.39,2.279c1.972,3.381,5.174,2.4,6.436,1.839a4.71,4.71,0,0,1,1.4-2.957C13.168,31.331,8,29.435,8,20.961a8.559,8.559,0,0,1,2.279-5.936A7.947,7.947,0,0,1,10.5,9.172s1.857-.594,6.083,2.267a20.98,20.98,0,0,1,11.076,0c4.221-2.861,6.076-2.267,6.076-2.267a7.937,7.937,0,0,1,.217,5.853,8.542,8.542,0,0,1,2.276,5.936c0,8.494-5.174,10.365-10.1,10.912a5.287,5.287,0,0,1,1.5,4.1c0,2.959-.026,5.341-.026,6.069,0,.589.4,1.278,1.519,1.061a22.119,22.119,0,0,0-7-43.1" fill="#fff"/>
+</svg>
+GitHub          </span>
         </span>
       </StyledCTA>
 

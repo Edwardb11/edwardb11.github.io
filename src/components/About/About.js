@@ -10,7 +10,7 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import myImage from "../../assets/my-image.jpg";
+import myImage from "../../assets/my-image.jpeg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
 import resume from "../../assets/resume.pdf";
 
@@ -28,15 +28,14 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Jericho P. Bantiquete, currently pursuing Bachelor of
-            Science in Information Technology in Pangasinan State University. I
-            am a passionate front-end developer based in Philippines.
+          My name is Edward Brito, currently studying Computer System Engineering 
+          at the Catholic University of Cibao - UCATECI.
+          I am a full stack developer
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from
-            scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS, TailwindCSS,
-            Bootstrap, PHP Laravel, Git and GitHub, Figma, Adobe XD and VS Code.
+          The technologies, tools, and languages I use to build my projects are
+          HTML, CSS, JavaScript, REACT JS, TailwindCSS,Bootstrap, Angular, Nestjs,
+          Git, and GitHub.
           </StyledParagraph>
           <StyledParagraph>
             I have eagerness to learn something new every day and I love to
@@ -47,7 +46,7 @@ const About = () => {
             <ResumeLink
               href={resume}
               icon={downloadIcon}
-              download="resume-jericho-bantiquete"
+              download="resumen-edward-brito"
             >
               Download Resume
             </ResumeLink>

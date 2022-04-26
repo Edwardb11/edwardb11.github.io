@@ -32,7 +32,7 @@ const Footer = () => {
 
       <FooterBigLinkContainer>
         <FooterBigLink
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:edwardbrito111@gmail.com"
           data-hover="Let's talk!"
         >
           Need a developer?
@@ -41,39 +41,33 @@ const Footer = () => {
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+639951076206">+639951076206</ContactLink>
+          <ContactLink href="tel:+18498564014">+ 1 (849) 856-4014</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
-              href="https://github.com/monciego"
+              href="https://github.com/Edwardb11"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </ContactLink>
             <ContactLink
-              href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+              href="https://www.linkedin.com/in/edward-brito-diaz-b60909179/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </ContactLink>
             <ContactLink
-              href="https://www.instagram.com/monciego/"
+              href="https://twitter.com/brito_edward11"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Instagram
+              Twitter
             </ContactLink>
           </FooterSocials>
-        </FooterContact>
-        <FooterContact>
-          <ContactHeader>Let's grab a coffee.</ContactHeader>
-          <ContactLink href="tel:+639951076206">
-            jerichobantiquete@gmail.com
-          </ContactLink>
         </FooterContact>
       </FooterContacts>
 
@@ -86,11 +80,11 @@ const Footer = () => {
         <small>
           &copy; Copyright {year},{" "}
           <Small
-            href="https://github.com/monciego"
+            href="https://github.com/Edwardb11"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Jericho Bantiquete
+            Edward Brito 
           </Small>
         </small>
       </Copyright>
