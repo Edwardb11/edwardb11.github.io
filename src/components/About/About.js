@@ -34,7 +34,7 @@ const About = () => {
           </StyledParagraph>
           <StyledParagraph>
           The technologies, tools, and languages I use to build my projects are
-          HTML, CSS, JavaScript, REACT JS, Angular, Nestjs, TailwindCSS, Bootstrap,
+          HTML, CSS, JavaScript, Reactjs, Angular, Nestjs, TailwindCSS, Bootstrap,
           Git and GitHub.
           </StyledParagraph>
           <StyledParagraph>
