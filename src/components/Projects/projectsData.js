@@ -7,10 +7,19 @@ import {
   task,
   blog,
   appPresupuesto,
-  ticCaculator
+  ticCaculator,
+  tracking,
 } from "./projectImages";
 
 export const projectData = [
+  {
+    id: 0,
+    image: tracking,
+    transitionImage: tracking,
+    title: "Sistema de seguimientos de paquetes",
+    codeLink: "https://github.com/Edwardb11/package-tracking-frontend",
+    liveLink: "https://package-tracking-frontend.vercel.app/",
+  },
   {
     id: 1,
     image: advice,
@@ -54,7 +63,7 @@ export const projectData = [
     transitionImage: task,
     title: "Simple task list ",
     codeLink: "https://github.com/Edwardb11/learning-angular",
-    liveLink:"https://tasks-e9r5lzolb-edwardb11.vercel.app/",
+    liveLink: "https://tasks-e9r5lzolb-edwardb11.vercel.app/",
   },
   {
     id: 7,
@@ -62,7 +71,7 @@ export const projectData = [
     transitionImage: blog,
     title: "Blog",
     codeLink: "https://github.com/Edwardb11/blog-project-front",
-    liveLink:"https://build-a-blog-project-bkjrvivau-edwardb11.vercel.app/",
+    liveLink: "https://build-a-blog-project-bkjrvivau-edwardb11.vercel.app/",
   },
   {
     id: 8,
@@ -70,7 +79,7 @@ export const projectData = [
     transitionImage: appPresupuesto,
     title: "Budget",
     codeLink: "https://github.com/Edwardb11/app-presupuesto-js",
-    liveLink:"https://edwardb11.github.io/app-presupuesto-js/",
+    liveLink: "https://edwardb11.github.io/app-presupuesto-js/",
   },
   {
     id: 9,
@@ -78,6 +87,6 @@ export const projectData = [
     transitionImage: ticCaculator,
     title: "Tic Calculator ",
     codeLink: "https://github.com/Edwardb11/Tip-calculator-app",
-    liveLink:"https://tip-calculator-app1-b6c66mx91-edwardb11.vercel.app/",
+    liveLink: "https://tip-calculator-app1-b6c66mx91-edwardb11.vercel.app/",
   },
 ];

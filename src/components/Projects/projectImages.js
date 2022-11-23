@@ -7,6 +7,7 @@ import blog from "../../assets/projects/blog.png";
 import task from "../../assets/projects/task.png";
 import ticCaculator from "../../assets/projects/tic-calculator.jpg";
 import appPresupuesto from "../../assets/projects/app-presupuesto.png";
+import tracking from "../../assets/projects/tracking.png";
 
 
 export {
@@ -18,6 +19,7 @@ export {
   blog,
   task,
   appPresupuesto,
-  ticCaculator
+  ticCaculator,
+  tracking
 
 };
