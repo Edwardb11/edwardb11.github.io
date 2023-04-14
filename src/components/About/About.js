@@ -28,26 +28,28 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-          My name is Edward Brito, currently studying Computer System Engineering 
-          at the Catholic University of Cibao - UCATECI.
-          I am a full stack developer
+            I'm a Full-Stack developer with around 2 years of experience in
+            developing web applications. My specialization is in Full-Stack
+            development using JavaScript, React.js with TypeScript, Material UI,
+            GraphQL, and Node.js with Nest.js, Express.js, TypeORM, Postgres,
+            and Docker.
           </StyledParagraph>
           <StyledParagraph>
-          The technologies, tools, and languages I use to build my projects are
-          HTML, CSS, JavaScript, Reactjs, Angular, Nestjs, TailwindCSS, Bootstrap,
-          Git and GitHub.
+            I have a strong passion for technology and am always looking for
+            ways to improve my skills and learn new ones. I am an enthusiastic
+            collaborator and believe in working in a team to achieve common
+            goals.
           </StyledParagraph>
           <StyledParagraph>
-            I have eagerness to learn something new every day and I love to
-            share my knowledge to my fellow students and developers. And I am
-            looking forward to talk with you!
+            If you're interested in my profile, please don't hesitate to contact
+            me. 😊 I'm available to discuss exciting job opportunities in the
+            world of technology.
           </StyledParagraph>
           <Resume>
             <ResumeLink
               href={resume}
               icon={downloadIcon}
-              download="resumen-edward-brito"
-            >
+              download="resumen-edward-brito">
               Download Resume
             </ResumeLink>
           </Resume>
