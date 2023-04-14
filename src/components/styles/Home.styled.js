@@ -118,8 +118,8 @@ export const Quote = styled.span`
   position: absolute;
   right: 25%;
   bottom: 30%;
-  color: #94929d;
-  font-size: 0.625rem;
+  color: #c8c7cc;
+  font-size: 0.8rem;
   letter-spacing: 0.125rem;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {

@@ -8,9 +8,16 @@ import reactjs from "../../assets/technologies/react.svg";
 import tailwindcss from "../../assets/technologies/tailwindcss.svg";
 import bootstrap from "../../assets/technologies/bootstrap.svg";
 import strapi from "../../assets/technologies/strapi.svg";
-import npm from "../../assets/technologies/npm.svg";
+import node from "../../assets/technologies/node.svg";
 import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
+import graphql from "../../assets/technologies/graphql.svg";
+import materialUI from "../../assets/technologies/Material-UI.svg";
+import docker from "../../assets/technologies/docker.svg";
+import postgres from "../../assets/technologies/postgres.svg";
+import redux from "../../assets/technologies/redux.svg";
+import express from "../../assets/technologies/express.svg";
+import mysql from "../../assets/technologies/MySql.svg";
 
 export const iconsData = [
   {
@@ -31,7 +38,7 @@ export const iconsData = [
   {
     id: 4,
     icon: typescript,
-    name: "typescript",
+    name: "TypeScript",
   },
   {
     id: 5,
@@ -40,42 +47,78 @@ export const iconsData = [
   },
   {
     id: 6,
+    icon: redux,
+    name: "Redux",
+  },
+  {
+    id: 7,
+    icon: graphql,
+    name: "GraphQL",
+  },
+  {
+    id: 8,
+    icon: materialUI,
+    name: "MaterialUI",
+  },
+  {
+    id: 9,
     icon: angular,
     name: "Angular",
   },
   {
-    id: 7,
+    id: 10,
     icon: tailwindcss,
     name: "TailwindCSS",
   },
   {
-    id: 8,
+    id: 11,
     icon: bootstrap,
     name: "Bootstrap",
   },
-  {
-    id: 9,
-    icon: npm,
-    name: "Node Package Manager",
-  },
-  {
-    id: 10,
-    icon: nestjs,
-    name: "nestjs",
-  },
-  {
-    id: 11,
-    icon: strapi,
-    name: "strapi",
-  },
+
   {
     id: 12,
+    icon: node,
+    name: "NodeJs",
+  },
+  {
+    id: 13,
+    icon: nestjs,
+    name: "NestJs",
+  },
+  {
+    id: 14,
+    icon: express,
+    name: "ExpressJs",
+  },
+  {
+    id: 15,
+    icon: strapi,
+    name: "StrapiJs",
+  },
+  {
+    id: 16,
+    icon: docker,
+    name: "Docker",
+  },
+  {
+    id: 15,
+    icon: mysql,
+    name: "MySql",
+  },
+  {
+    id: 15,
+    icon: postgres,
+    name: "Postgres",
+  },
+  {
+    id: 16,
     icon: git,
     name: "Git",
   },
   {
-    id: 13,
+    id: 17,
     icon: github,
     name: "GitHub",
-  }
+  },
 ];
