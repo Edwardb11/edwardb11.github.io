@@ -19,31 +19,31 @@ export default function Document() {
         <link
           rel="apple-touch-icon"
           sizes="120x120"
-          href="/favicons/apple-touch-icon.png"
+          href="/favicons/edward-brito.jpeg"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="512x512"
-          href="/favicons/android-chrome-512x512.png"
+          href="/favicons/edward-brito.jpeg"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="192x192"
-          href="/favicons/android-chrome-192x192.png"
+          href="/favicons/edward-brito.jpeg"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicons/favicon-32x32.png"
+          href="/favicons/edward-brito.jpeg"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicons/favicon-16x16.png"
+          href="/favicons/edward-brito.jpeg"
         />
         <script src="/scripts/no-flash.js"></script>
       </Head>
