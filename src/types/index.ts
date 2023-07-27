@@ -25,7 +25,7 @@ export type ExperienceType = {
 };
 
 export interface EducationType extends  ExperienceType  {
-  title: string;
+  title?: string;
 
 };
 

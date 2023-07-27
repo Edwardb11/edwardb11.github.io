@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const Education = () => {
   return (
     <motion.section
-      id="experience"
+      id="education"
       className="max-w-3xl py-32 mx-auto"
       {...getSectionAnimation}
     >
