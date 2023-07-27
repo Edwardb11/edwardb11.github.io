@@ -17,7 +17,6 @@ const Tablist = ({ experiences }: Props) => {
     role,
     company,
     title,
-    institution,
     companyUrl,
     started,
     upto,
@@ -47,7 +46,7 @@ const Tablist = ({ experiences }: Props) => {
             }`}
             onClick={() => setActiveExperience(i)}
           >
-            {company || institution}
+            {company }
           </button>
         ))}
         {/* Slider */}
