@@ -1,20 +1,28 @@
 import useWindowWidth from '../hooks/use-window-width';
-import { ExperienceType } from '../types';
+import {  EducationType } from '../types';
 import { getBreakpointsWidth, getId } from '../utils/helper';
 import Link from './Link';
 import ListItem from './ListItem';
 import { useState } from 'react';
 
 type Props = {
-  experiences: ExperienceType[];
+  experiences: EducationType[];
 };
 
 const Tablist = ({ experiences }: Props) => {
   const [activeExperience, setActiveExperience] = useState(0);
   const windowWidth = useWindowWidth();
 
-  const { role, company, companyUrl, started, upto, tasks } =
-    experiences[activeExperience];
+  const {
+    role,
+    company,
+    title,
+    institution,
+    companyUrl,
+    started,
+    upto,
+    tasks,
+  } = experiences[activeExperience];
 
   const sm = getBreakpointsWidth('sm');
 
@@ -39,7 +47,7 @@ const Tablist = ({ experiences }: Props) => {
             }`}
             onClick={() => setActiveExperience(i)}
           >
-            {company}
+            {company || institution}
           </button>
         ))}
         {/* Slider */}
@@ -54,9 +62,12 @@ const Tablist = ({ experiences }: Props) => {
         <div className="space-y-1">
           <h3 className="text-lg font-medium capitalize text-dark-2">
             {role}{' '}
-            <Link href={companyUrl} target="_blank" className="text-accent">
-              @{company}
-            </Link>
+            {!title && (
+              <Link href={companyUrl} target="_blank" className="text-accent">
+                @{company}
+              </Link>
+            )}
+            <span>{title}</span>
           </h3>
           <p className="font-mono text-xs capitalize">
             <>

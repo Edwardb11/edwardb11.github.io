@@ -2,6 +2,7 @@ import { SEO } from '../components';
 import {
   About,
   Contact,
+  Education,
   Experience,
   Hero,
   Layout,
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
         <Hero />
         <About />
         <Skills />
+        <Education />
         <Experience />
         <Projects />
         <Contact />

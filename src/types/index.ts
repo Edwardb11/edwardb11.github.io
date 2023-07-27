@@ -16,12 +16,17 @@ export type CTAType = {
 
 // env
 export type ExperienceType = {
-  role: string;
-  company: string;
-  companyUrl: string;
+  role?: string;
+  company?: string;
+  companyUrl?: string;
   started: Date | string;
   upto: Date | 'present' | string;
   tasks: string[];
+};
+
+export interface EducationType extends  ExperienceType  {
+  title: string;
+
 };
 
 export type ProjectType = {

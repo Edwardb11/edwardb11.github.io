@@ -63,6 +63,7 @@ export const navbarSection: NavbarSectionType = {
   navLinks: [
     { name: 'about', url: '/#about' },
     { name: 'skills', url: '/#skills' },
+    { name: 'education', url: '/#education' },
     { name: 'experience', url: '/#experience' },
     { name: 'projects', url: '/#projects' },
     { name: 'contact', url: '/#contact' },
@@ -170,42 +171,45 @@ export const experienceSection: ExperienceSectionType = {
 };
 
 export const educationSection: EducationSectionType = {
-  title: "where i've worked",
+  title: 'My education',
   experiences: [
     {
-      company: 'SHMTH Capital',
-      companyUrl: 'https://www.linkedin.com/company/shmth-capital/about/',
-      role: 'frontend developer intern',
-      started: 'april 2023',
-      upto: 'july 2023',
+      company: 'Universidad Católica del Cibao',
+      companyUrl:
+        'https://www.linkedin.com/company/intellisys-d--corp-/mycompany/',
+      title: 'Systems engineering',
+      started: 'August 2019',
+      upto: 'present',
       tasks: [
-        'Built trading platform using TradingView library.',
-        'Designed SHMTH Capital website with Next.js, TypeScript & TailwindCSS.',
-        'Collaborated with diverse nationwide team of developers.',
+        'Analysis and design of systems and database',
+        'Networks',
+        'Full Stack Development: Software Engineering',
       ],
     },
     {
-      company: 'webnetics',
-      companyUrl: 'https://webnetic.vercel.app/',
-      role: 'frontend developer',
-      started: 'june 2022',
-      upto: 'january 2023',
+      company: 'Cincinnatus Institute of Craftsmanship',
+      companyUrl:
+        'https://www.linkedin.com/company/intellisys-d--corp-/mycompany/',
+      title: 'Software Developer',
+      started: 'September 2019',
+      upto: 'February 2022',
       tasks: [
-        'Built static frontend UI from the ground up using Next.js and Figma handover designs.',
-        'Architected the folder structure and initial setup of the app.',
-        'Reviewed and approved multiple Pull requests.',
-        'Worked remotely with a distributed team from around the globe, collaborating closely using screen-sharing.',
+        'Python - JavaScript - Html - Css - Math',
+        'Design patterns',
+        'Full Stack Development',
+        'Git & GitHub.'
       ],
     },
     {
-      company: 'Kronos',
-      companyUrl: 'https://kronos-sscbs-21.github.io/proj-kronos-site/',
-      role: 'designer & developer',
-      started: 'january 2021',
-      upto: 'june 2021',
+      company: 'Liceo Manuel Acevedo Serrano (CEMAS)',
+      companyUrl:
+        'https://www.linkedin.com/company/intellisys-d--corp-/mycompany/',
+      title: ' Professional Computer Technician',
+      started: 'August 2015',
+      upto: 'June 2019',
       tasks: [
-        'Designed social media posts.',
-        'Worked remotely with designing & tech team.',
+        'Computer assembly and assembly.',
+        'Basic concepts about programming, algorithms and database.',
       ],
     },
   ],
@@ -231,7 +235,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/Tip-calculator-app',
       img: '/projects/tic-calculator.jpg',
       year: 2022,
-      tags: ['React', 'TailwindCSS', ],
+      tags: ['React', 'TailwindCSS'],
     },
     {
       id: getId(),
@@ -240,7 +244,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/advice-generator-app',
       img: '/projects/advice.png',
       year: 2022,
-      tags: ['React', 'CSS', ],
+      tags: ['React', 'CSS'],
     },
     {
       id: getId(),
@@ -249,7 +253,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/Checkers',
       img: '/projects/game.png',
       year: 2021,
-      tags: ['Python', 'TKinter', ],
+      tags: ['Python', 'TKinter'],
     },
     {
       id: getId(),
@@ -258,7 +262,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/mean-stack-frontend',
       img: '/projects/meanStack.png',
       year: 2022,
-      tags: ['Mongo', 'Express','Angular', 'Node' ],
+      tags: ['Mongo', 'Express', 'Angular', 'Node'],
     },
     {
       id: getId(),
@@ -267,7 +271,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/php/tree/to-do-list',
       img: '/projects/todolist.png',
       year: 2021,
-      tags: ['Php', 'Bulma','Mysql' ],
+      tags: ['Php', 'Bulma', 'Mysql'],
     },
     {
       id: getId(),
@@ -276,7 +280,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/sistema_de_cita_odontologica',
       img: '/projects/odontologica.png',
       year: 2021,
-      tags: ['Php', 'Bootstrap','Mysql' ],
+      tags: ['Php', 'Bootstrap', 'Mysql'],
     },
     {
       id: getId(),
@@ -285,7 +289,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/learning-angular',
       img: '/projects/task.png',
       year: 2022,
-      tags: ['Angular', 'Bootstrap', ],
+      tags: ['Angular', 'Bootstrap'],
     },
     {
       id: getId(),
@@ -294,7 +298,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/app-presupuesto-js',
       img: '/projects/app-presupuesto.png',
       year: 2021,
-      tags: ['Angular', 'Bootstrap', ],
+      tags: ['Angular', 'Bootstrap'],
     },
     {
       id: getId(),
@@ -303,9 +307,8 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/Edwardb11/blog-project-front',
       img: '/projects/blog.png',
       year: 2022,
-      tags: ['React', 'TailwindCSS','ExpressJs' ],
+      tags: ['React', 'TailwindCSS', 'ExpressJs'],
     },
-
   ],
 };
 
