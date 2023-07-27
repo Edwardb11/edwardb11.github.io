@@ -23,8 +23,9 @@ const About = () => {
           </p>
 
           <p>
-          My main focus these days is to continue learning backend development.
-          </p>
+          I have a strong passion for technology and am always looking for ways to improve my skills and learn new ones. I am an enthusiastic collaborator and believe in working in a team to achieve common goals.
+
+</p>
 
           {list && (
             <>
