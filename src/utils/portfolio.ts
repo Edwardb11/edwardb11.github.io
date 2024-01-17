@@ -163,7 +163,10 @@ export const experienceSection: ExperienceSectionType = {
       upto: 'january 2024',
       tasks: [
         'I worked on the development of the telemedicine website TuHospital.do',
+        "I increased the team's productivity by 20% by automating repetitive processes and allowing team members to focus on higher-value tasks.",
         'Develop API with NestJs, Graphql Postgres and TypeScript. ',
+        'During this time I developed several web interfaces with React, Next and Angular using Tailwind, MUI, Angular Material.',
+        'Agile methodologies',
         'Collaborated with diverse  team of developers.',
       ],
     },
