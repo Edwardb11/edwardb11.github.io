@@ -160,7 +160,7 @@ export const experienceSection: ExperienceSectionType = {
         'https://www.linkedin.com/company/intellisys-d--corp-/mycompany/',
       role: 'Full-Stack Developer',
       started: 'august 2021',
-      upto: 'present',
+      upto: 'january 2024',
       tasks: [
         'I worked on the development of the telemedicine website TuHospital.do',
         'Develop API with NestJs, Graphql Postgres and TypeScript. ',
