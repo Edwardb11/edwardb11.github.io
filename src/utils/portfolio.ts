@@ -224,6 +224,26 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Where in the world?',
+      url: 'https://rest-countries-edwardb11.vercel.app/',
+      repo: 'https://github.com/Edwardb11/rest-countries',
+      img: '/projects/rest-countries.jpg',
+
+      year: 2024,
+      tags: ['Next 14', 'TailiwndCSS', 'TypeScript'],
+    },
+    {
+      id: getId(),
+      name: 'Tic tac Toe',
+      url: 'https://rest-countries-edwardb11.vercel.app/',
+      repo: 'https://github.com/Edwardb11/rest-countries',
+      img: '/projects/tic.png',
+
+      year: 2024,
+      tags: ['React', 'TailiwndCSS', 'JavaScript'],
+    },
+    {
+      id: getId(),
       name: 'Package Tracking System',
       url: 'https://package-tracking-frontend.vercel.app',
       repo: 'https://github.com/Edwardb11/package-tracking-frontend',
@@ -231,6 +251,7 @@ export const projectsSection: ProjectsSectionType = {
       year: 2022,
       tags: ['React', 'TailiwndCSS', 'ExpressJs', 'MySQL'],
     },
+
     {
       id: getId(),
       name: 'Tic Calculator',
