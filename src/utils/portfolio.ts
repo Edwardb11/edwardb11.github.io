@@ -200,7 +200,7 @@ export const educationSection: EducationSectionType = {
         'Python - JavaScript - Html - Css - Math',
         'Design patterns',
         'Full Stack Development',
-        'Git & GitHub.'
+        'Git & GitHub.',
       ],
     },
     {
@@ -222,6 +222,16 @@ export const educationSection: EducationSectionType = {
 export const projectsSection: ProjectsSectionType = {
   title: 'my projects',
   projects: [
+    {
+      id: getId(),
+      name: 'Finance Tracker',
+      url: 'https://app-finance-tracker.netlify.app/',
+      repo: 'https://github.com/Edwardb11/finance-tracker',
+      img: '/projects/finance.png',
+
+      year: 2024,
+      tags: ['Next 14', 'TailiwndCSS', 'TypeScript', 'Firebase'],
+    },
     {
       id: getId(),
       name: 'Where in the world?',
