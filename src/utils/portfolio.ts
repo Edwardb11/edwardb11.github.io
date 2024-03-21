@@ -155,6 +155,18 @@ export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
     {
+      company: 'Asociación Popular de Ahorros y Préstamos - APAP',
+      companyUrl:
+        'https://www.linkedin.com/company/asociaci-n-popular-de-ahorros-y-pr-stamos//',
+      role: 'Full-Stack Developer',
+      started: 'April',
+      upto: 'Present',
+      tasks: [
+        'Full-Stack Developer',
+
+      ],
+    },
+    {
       company: 'Intellisys D. Corp.',
       companyUrl:
         'https://www.linkedin.com/company/intellisys-d--corp-/mycompany/',
