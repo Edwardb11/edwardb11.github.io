@@ -70,22 +70,22 @@ export const navbarSection: NavbarSectionType = {
   ],
   cta: {
     title: 'resume',
-    url: `/${resumeFileName}`,
+    url: `${resumeFileName}`,
   },
 };
 
 // * Hero Section
 
 export const heroSection: HeroSectionType = {
-  subtitle: 'Hi, my name is',
-  title: 'Edward Brito.',
-  tagline: 'I create visually pleasing interfaces for the web.',
+  subtitle: 'Hi, my name is Edward Brito',
+  title: '+4 years of experience',
+  tagline: ' Full-Stack Developer',
   description:
-    'I am a Full-Stack web developer having experience in web applications with React.js and Next.js with TypeScript and TailwindCSS and Next.Js and ExpressJs.',
+    'Specialized in the development of unique web applications',
   // specialText: 'Currently available for remote job & freelance',
   cta: {
     title: 'see my resume',
-    url: `/${resumeFileName}`,
+    url: `${resumeFileName}`,
     hideInDesktop: true,
   },
 };
@@ -98,8 +98,10 @@ export const aboutSection: AboutSectionType = {
     title: 'Here are a few technologies I’ve been working with recently:',
     items: [
       'ReactJs',
+      'Angular',
       'NextJs',
       'TailwindCSS',
+      'MaterialUI',
       'ExpressJs',
       'NestJs',
       'TypeScript',
@@ -123,18 +125,18 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Building responsive static websites using Next.js',
-        'Building responsive Single Page Apps in React.js',
-        'Building RESTful APIs in Express and NestJs',
+       ' Development of responsive static websites',
+        'Creation of responsive single-page applications',
+        'Building of RESTful APIs',
+        'Development of management systems',
+        'Implementation of third-party integrations',
+        'Consulting in web development and technology solutions'
       ],
       softwareSkills: [
         { name: 'html-5', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
-        {
-          name: 'typeScript',
-          icon: 'vscode-icons:file-type-typescript-official',
-        },
+        { name: 'typeScript', icon: 'vscode-icons:file-type-typescript-official' },
         { name: 'python', icon: 'vscode-icons:file-type-python' },
         { name: 'nodejs', icon: 'logos:nodejs-icon' },
         { name: 'reactjs', icon: 'logos:react' },
@@ -144,6 +146,8 @@ export const skillsSection: SkillsSectionType = {
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
         { name: 'mysql', icon: 'vscode-icons:file-type-mysql' },
         { name: 'nestjs', icon: 'vscode-icons:file-type-nestjs' },
+        { name: 'csharp', icon: 'logos:c-sharp' }, 
+        { name: 'rabbitmq', icon: 'logos:rabbitmq' }, 
       ],
     },
   ],
@@ -189,12 +193,24 @@ export const educationSection: EducationSectionType = {
   title: 'My education',
   experiences: [
     {
+      company: 'Instituto Nacional de Formación Técnico Profesional',
+      companyUrl:
+        'https://infotepvirtual.com/',
+      title: 'Website programming technician',
+      started: 'May 2024',
+      upto: 'Present',
+      tasks: [
+        'Web page analysis and design',
+        'Frontend Developer',
+      ],
+    },
+    {
       company: 'Universidad Católica del Cibao',
       companyUrl:
         'https://www.linkedin.com/company/intellisys-d--corp-/mycompany/',
       title: 'Systems engineering',
       started: 'August 2019',
-      upto: 'present',
+      upto: 'July 2024',
       tasks: [
         'Analysis and design of systems and database',
         'Networks',

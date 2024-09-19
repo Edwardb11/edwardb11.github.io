@@ -19,13 +19,13 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Edward Brito, I'm a Full-Stack developer with around 2 years of experience in developing web applications.
-          </p>
+            My name is Edward Brito, a Software Engineer passionate about web and mobile development. With over 4 years of experience in developing applications, I specialize in Full-Stack development and have built applications using modern JavaScript and TypeScript technologies.          </p>
 
           <p>
-          I have a strong passion for technology and am always looking for ways to improve my skills and learn new ones. I am an enthusiastic collaborator and believe in working in a team to achieve common goals.
+            As a Systems Engineer, I am constantly seeking ways to enhance my skills and learn new ones. I enjoy sharing my knowledge and helping others whenever possible. I strongly believe in cooperation and teamwork to accomplish shared objectives.
 
-</p>
+
+          </p>
 
           {list && (
             <>
