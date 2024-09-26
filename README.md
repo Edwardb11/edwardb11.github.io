@@ -1,19 +1,12 @@
 <h1 align="center">
-  vatsalsinghkv.vercel.app
+ edwardb11-github-io.vercel.app
 </h1>
 
 <p align="center">
-  A portfolio website i.e. <a href="https://vatsalsinghkv.vercel.app" target="_blank">vatsalsinghkv.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  A portfolio website i.e. <a href="https://edwardb11-github-io.vercel.app/" target="_blank">edwardb11-github-io.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
-<p align="center">
-  <a href="https://choosealicense.com/licenses/mit/">
-    <img src="https://img.shields.io/badge/License-MIT-brightgreen"/ >
-  </a>
-  <img src="https://img.shields.io/badge/Version-1.3.1-blue"/ >
-</p>
-
-[![My Portfolio](https://user-images.githubusercontent.com/68834718/214532356-7c56cdbd-0136-4d24-a532-d27e160ae72d.png)](https://vatsalsinghkv.vercel.app/)
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/591c3792-a4f9-4867-9eab-d880dcd54bdc">
 
 ## Sections
 
