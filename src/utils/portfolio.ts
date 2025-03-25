@@ -252,6 +252,15 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Ali Studio',
+      url: 'https://alistudiord.com/',
+      repo: '#',
+      img: '/projects/ali.png',
+      year: 2025,
+      tags: ['Next 15', 'TailiwndCSS', 'TypeScript'],
+    },
+    {
+      id: getId(),
       name: 'Finance Tracker',
       url: 'https://app-finance-tracker.netlify.app/',
       repo: 'https://github.com/Edwardb11/finance-tracker',
