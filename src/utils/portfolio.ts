@@ -125,7 +125,7 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-       ' Development of responsive static websites',
+        ' Development of responsive static websites',
         'Creation of responsive single-page applications',
         'Building of RESTful APIs',
         'Development of management systems',
@@ -146,8 +146,8 @@ export const skillsSection: SkillsSectionType = {
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
         { name: 'mysql', icon: 'vscode-icons:file-type-mysql' },
         { name: 'nestjs', icon: 'vscode-icons:file-type-nestjs' },
-        { name: 'csharp', icon: 'logos:c-sharp' }, 
-        { name: 'rabbitmq', icon: 'logos:rabbitmq' }, 
+        { name: 'csharp', icon: 'logos:c-sharp' },
+        { name: 'rabbitmq', icon: 'logos:rabbitmq' },
       ],
     },
   ],
@@ -250,6 +250,15 @@ export const educationSection: EducationSectionType = {
 export const projectsSection: ProjectsSectionType = {
   title: 'my projects',
   projects: [
+    {
+      id: getId(),
+      name: 'RyuDev',
+      url: 'https://ryudev.vercel.app/',
+      repo: '#',
+      img: '/projects/ryu.png',
+      year: 2025,
+      tags: ['Next 15', 'TailwindCSS', 'TypeScript'],
+    },
     {
       id: getId(),
       name: 'Ali Studio',

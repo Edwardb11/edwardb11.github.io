@@ -2,12 +2,16 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: [
-      'user-images.githubusercontent.com',
-      'github-production-user-asset-6210df.s3.amazonaws.com',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'user-images.githubusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'github-production-user-asset-6210df.s3.amazonaws.com',
+      },
     ],
   },
-  experimental: {
-    appDir: false,
-  },
+  deploymentId: 'dev-fix',
 };
