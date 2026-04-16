@@ -252,11 +252,11 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'RyuDev',
-      url: 'https://ryudev.vercel.app/',
+      name: 'Haikarix',
+      url: 'https://haikarix.com/',
       repo: '#',
-      img: '/projects/ryu.png',
-      year: 2025,
+      img: '/projects/haikarix.png',
+      year: 2026,
       tags: ['Next 15', 'TailwindCSS', 'TypeScript'],
     },
     {
